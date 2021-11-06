@@ -4,7 +4,7 @@ store = {}
 result = []
 
 def readFile():
-    patternFile = open("dataset_2.txt", "r")
+    patternFile = open("dataset_3.txt", "r")
 
     file = patternFile.readlines()
 
@@ -22,6 +22,8 @@ def check_word_frequency():
     data = readFile()
     dnaPattern = data[0]
     windowSize = data[1]
+
+    print(data[0])
 
     for i in range(len(dnaPattern) - int(windowSize) + 1):
         store_pattern = ""

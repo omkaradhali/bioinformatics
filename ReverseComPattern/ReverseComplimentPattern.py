@@ -1,5 +1,5 @@
 def readFile():
-    patternFile = open("dataset_3.txt", "r")
+    patternFile = open("dataset_4.txt", "r")
 
     file = patternFile.readlines()
 
